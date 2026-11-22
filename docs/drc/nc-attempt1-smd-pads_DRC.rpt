@@ -1,0 +1,255 @@
+** Drc report for OpenRX-Lite-UFL.kicad_pcb **
+** Created on 2026-11-22T13:10:19 **
+** Report includes: Errors, Warnings **
+
+** Found 60 DRC violations **
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(106.2700 mm, 107.8824 mm): Track [+5V] on In2.Cu, length 1.6398 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(103.7250 mm, 109.7550 mm): Track [Net-(U1-U0TXD)] on In3.Cu, length 0.0010 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(103.7240 mm, 109.3360 mm): Track [Net-(U1-U0TXD)] on In3.Cu, length 1.4190 mm
+[track_dangling]: Track has unconnected end
+    Local override; warning
+    @(101.2909 mm, 108.8000 mm): Track [Net-(U1-U0RXD)] on In3.Cu, length 0.0909 mm
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 0.0900 mm; actual 0.0663 mm) (B.Cu)
+    Rule: board setup constraints; warning
+    @(100.0000 mm, 99.9500 mm): Zone 'GND Fill' [GND] on F.Cu, B.Cu and 3 more, priority 0
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 0.0900 mm; actual 0.0698 mm) (B.Cu)
+    Rule: board setup constraints; warning
+    @(100.0000 mm, 99.9500 mm): Zone 'GND Fill' [GND] on F.Cu, B.Cu and 3 more, priority 0
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 0.0900 mm; actual 0.0705 mm) (B.Cu)
+    Rule: board setup constraints; warning
+    @(100.0000 mm, 99.9500 mm): Zone 'GND Fill' [GND] on F.Cu, B.Cu and 3 more, priority 0
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 0.0900 mm; actual 0.0776 mm) (B.Cu)
+    Rule: board setup constraints; warning
+    @(100.0000 mm, 99.9500 mm): Zone 'GND Fill' [GND] on F.Cu, B.Cu and 3 more, priority 0
+[connection_width]: Copper connection too narrow (board setup constraints minimum connection width 0.0900 mm; actual 0.0773 mm) (B.Cu)
+    Rule: board setup constraints; warning
+    @(100.0000 mm, 99.9500 mm): Zone 'GND Fill' [GND] on F.Cu, B.Cu and 3 more, priority 0
+[courtyards_overlap]: Courtyards overlap
+    Rule: board setup constraints courtyard; warning
+    @(108.8100 mm, 111.0000 mm): Footprint TP4
+    @(109.1600 mm, 108.0500 mm): Footprint TP5
+[padstack]: Padstack is questionable (SMD pad has copper and mask layers on different sides of the board)
+    Local override; warning
+    @(106.2700 mm, 109.7500 mm): Pad 3 [+5V] of TP3 on B.Cu
+[padstack]: Padstack is questionable (SMD pad has copper and mask layers on different sides of the board)
+    Local override; warning
+    @(108.8100 mm, 109.7500 mm): Pad 3 [GND] of TP4 on B.Cu
+[padstack]: Padstack is questionable (SMD pad has copper and mask layers on different sides of the board)
+    Local override; warning
+    @(103.7240 mm, 109.7500 mm): Pad 3 [Net-(U1-U0TXD)] of TP2 on B.Cu
+[padstack]: Padstack is questionable (SMD pad has copper and mask layers on different sides of the board)
+    Local override; warning
+    @(101.1840 mm, 109.7500 mm): Pad 3 [Net-(U1-U0RXD)] of TP1 on B.Cu
+[lib_footprint_mismatch]: Footprint 'FILTER-SMD_4P-L1.0-W0.5-L' does not match copy in library 'OpenRX-Shared'
+    Local override; warning
+    @(103.4000 mm, 101.9000 mm): Footprint FL1
+[lib_footprint_mismatch]: Footprint 'SolderPad_1.2x2.0mm' does not match copy in library 'OpenRX-Shared'
+    Local override; warning
+    @(109.1600 mm, 108.0500 mm): Footprint TP5
+[lib_footprint_mismatch]: Footprint 'QFN-24_L4.0-W4.0-P0.50-TL-EP2.6' does not match copy in library 'OpenRX-Shared'
+    Local override; warning
+    @(102.6000 mm, 105.0500 mm): Footprint U3
+[lib_footprint_mismatch]: Footprint 'CRYSTAL-SMD_4P-L1.6-W1.2-BL' does not match copy in library 'OpenRX-Shared'
+    Local override; warning
+    @(108.2000 mm, 106.2000 mm): Footprint X1
+[lib_footprint_mismatch]: Footprint 'U.FL_Hirose_U.FL-R-SMT-1_Vertical' does not match copy in library 'Connector_Coaxial'
+    Local override; warning
+    @(108.1000 mm, 101.7000 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint 'QFN-32-1EP_5x5mm_P0.5mm_EP3.7x3.7mm' does not match copy in library 'Package_DFN_QFN'
+    Local override; warning
+    @(106.9500 mm, 102.5500 mm): Footprint U1
+[lib_footprint_mismatch]: Footprint 'X2SON-4_L1.0-W1.0-P0.65-TL-EP' does not match copy in library 'OpenRX-Shared'
+    Local override; warning
+    @(100.9500 mm, 100.9500 mm): Footprint U2
+[lib_footprint_mismatch]: Footprint 'L_0805_2012Metric' does not match copy in library 'Inductor_SMD'
+    Local override; warning
+    @(104.6000 mm, 107.1000 mm): Footprint L4
+[lib_footprint_mismatch]: Footprint 'OSC-SMD_4P-L2.0-W1.6-BL_TXC_7Z' does not match copy in library 'OpenRX-Shared'
+    Local override; warning
+    @(101.4500 mm, 107.4000 mm): Footprint OSC1
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(107.1100 mm, 100.7600 mm): Rectangle of J1 on F.Mask
+    @(109.4250 mm, 102.2791 mm): Via [Net-(U1-U0TXD)] on F.Cu - B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(103.1800 mm, 101.1000 mm): Track [/ESP32-C3 + SX1281 Core (UFL)/BOOT] on B.Cu, length 0.5374 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(103.1800 mm, 101.1000 mm): Track [/ESP32-C3 + SX1281 Core (UFL)/BOOT] on B.Cu, length 0.5374 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.8000 mm, 100.7200 mm): Pad 2 [/ESP32-C3 + SX1281 Core (UFL)/BOOT] of R4 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.8300 mm, 101.4500 mm): Pad 1 [+3V3] of R3 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(103.1800 mm, 101.1000 mm): Track [/ESP32-C3 + SX1281 Core (UFL)/BOOT] on B.Cu, length 0.5374 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.8000 mm, 100.7200 mm): Pad 2 [/ESP32-C3 + SX1281 Core (UFL)/BOOT] of R4 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(101.8950 mm, 102.9000 mm): Via [GND] on F.Cu - B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(101.7484 mm, 101.0950 mm): Via [GND] on F.Cu - B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.1000 mm, 101.2200 mm): Pad 2 [GND] of C15 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.1600 mm, 101.7000 mm): Via [GND] on F.Cu - B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.1400 mm, 101.2800 mm): Via [GND] on F.Cu - B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(100.0000 mm, 99.9500 mm): Zone 'GND Fill' [GND] on F.Cu, B.Cu and 3 more, priority 0
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(103.1800 mm, 101.1000 mm): Track [/ESP32-C3 + SX1281 Core (UFL)/BOOT] on B.Cu, length 0.5374 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.8000 mm, 100.7200 mm): Pad 2 [/ESP32-C3 + SX1281 Core (UFL)/BOOT] of R4 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.8300 mm, 101.4500 mm): Pad 1 [+3V3] of R3 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(103.1800 mm, 101.1000 mm): Track [/ESP32-C3 + SX1281 Core (UFL)/BOOT] on B.Cu, length 0.5374 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.8000 mm, 100.7200 mm): Pad 2 [/ESP32-C3 + SX1281 Core (UFL)/BOOT] of R4 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.8300 mm, 101.4500 mm): Pad 1 [+3V3] of R3 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(103.1800 mm, 101.1000 mm): Track [/ESP32-C3 + SX1281 Core (UFL)/BOOT] on B.Cu, length 0.5374 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.8000 mm, 100.7200 mm): Pad 2 [/ESP32-C3 + SX1281 Core (UFL)/BOOT] of R4 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.1000 mm, 101.2200 mm): Pad 2 [GND] of C15 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.1600 mm, 101.7000 mm): Via [GND] on F.Cu - B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.1400 mm, 101.2800 mm): Via [GND] on F.Cu - B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(100.0000 mm, 99.9500 mm): Zone 'GND Fill' [GND] on F.Cu, B.Cu and 3 more, priority 0
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(103.1800 mm, 101.1000 mm): Track [/ESP32-C3 + SX1281 Core (UFL)/BOOT] on B.Cu, length 0.5374 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.8000 mm, 100.7200 mm): Pad 2 [/ESP32-C3 + SX1281 Core (UFL)/BOOT] of R4 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.1000 mm, 101.2200 mm): Pad 2 [GND] of C15 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.1600 mm, 101.7000 mm): Via [GND] on F.Cu - B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.1400 mm, 101.2800 mm): Via [GND] on F.Cu - B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(100.0000 mm, 99.9500 mm): Zone 'GND Fill' [GND] on F.Cu, B.Cu and 3 more, priority 0
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(103.1800 mm, 101.1000 mm): Track [/ESP32-C3 + SX1281 Core (UFL)/BOOT] on B.Cu, length 0.5374 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.8000 mm, 100.7200 mm): Pad 2 [/ESP32-C3 + SX1281 Core (UFL)/BOOT] of R4 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(103.1800 mm, 101.1000 mm): Track [/ESP32-C3 + SX1281 Core (UFL)/BOOT] on B.Cu, length 0.5374 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.8000 mm, 100.7200 mm): Pad 2 [/ESP32-C3 + SX1281 Core (UFL)/BOOT] of R4 on B.Cu
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(103.1800 mm, 101.1000 mm): Track [/ESP32-C3 + SX1281 Core (UFL)/BOOT] on B.Cu, length 0.5374 mm
+[solder_mask_bridge]: Rear solder mask aperture bridges items with different nets
+    Rule: board setup solder mask min width; warning
+    @(101.6500 mm, 102.9500 mm): PCB text 'RX' on B.Mask
+    @(102.8000 mm, 100.7200 mm): Pad 2 [/ESP32-C3 + SX1281 Core (UFL)/BOOT] of R4 on B.Cu
+
+** Found 3 unconnected pads **
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(106.2700 mm, 109.7500 mm): Pad 3 [+5V] of TP3 on B.Cu
+    @(106.2700 mm, 107.8824 mm): Track [+5V] on In2.Cu, length 1.6398 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(103.7240 mm, 109.7500 mm): Pad 2 [Net-(U1-U0TXD)] of TP2 on F.Cu
+    @(103.7250 mm, 109.7550 mm): Track [Net-(U1-U0TXD)] on In3.Cu, length 0.0010 mm
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(101.6840 mm, 109.5000 mm): PTH pad 1 [Net-(U1-U0RXD)] of TP1
+    @(101.6091 mm, 108.8000 mm): Track [Net-(U1-U0RXD)] on In3.Cu, length 0.0141 mm
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Silkscreen clearance
+    - Silkscreen clipped by solder mask
+    - Silkscreen clipped by board edge
+    - Text height out of range
+    - Text thickness out of range
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
