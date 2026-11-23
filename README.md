@@ -17,9 +17,9 @@ against a store-bought unit to learn how every part of the design works.
 
 - [x] Stock design checked (ERC/DRC baseline, Gerbers inspected layer by layer)
 - [x] Non-castellated variant `rev2.3-nc` designed and verified ([why](docs/01-nc-variant.md))
-- [ ] PCB + stencil order from JLCPCB (settings ready: [docs/02](docs/02-jlc-order.md))
-- [ ] Parts order from LCSC (cart ready: [docs/03](docs/03-parts.md))
-- [ ] USB-serial adapter, wire, paste check ([tools](docs/03-parts.md#tools-and-consumables))
+- [x] PCB + stencil order from JLCPCB (settings ready: [docs/02](docs/02-jlc-order.md))
+- [x] Parts order from LCSC (cart ready: [docs/03](docs/03-parts.md))
+- [x] USB-serial adapter, wire, paste check ([tools](docs/03-parts.md#tools-and-consumables))
 - [ ] Assembly, bottom side then top side ([plan](docs/04-assembly.md))
 - [ ] First power-up and first flash over UART ([flashing](docs/05-flashing.md))
 - [ ] Bind to RadioMaster TX12 (ELRS 3.5 or later)
